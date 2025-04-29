@@ -2,13 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Tagesschrift', system-ui;
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.about,
+.profile,
+.story,
+.projects {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,8 +17,8 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('./images/img-2.jpg');
+.about {
+  background-image: url('./images/img-01.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,17 +26,26 @@
   font-size: 100px;
 }
 
-.products {
-  background-image: url('./images/img-1.jpg');
+.profile {
+  background-image: url('./images/img-01.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
 
-.sign-up {
-  background-image: url('./images/img-8.jpg');
+.story {
+  background-image: url('./images/img-01.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.projects {
+  background-image: url('./images/img-01.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
