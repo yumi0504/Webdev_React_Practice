@@ -8,10 +8,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          We bring you the latest updates!
         </p>
         <p className='footer-subscription-text'>
-          You can describe at any time.
+          Would you like to hear from us?
         </p>
         <div className='input-areas'>
           <form>
@@ -31,13 +31,10 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
+            <h2>Profile Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
@@ -46,18 +43,17 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <h2>Story</h2>
+            <Link to='/'>Photoes</Link>
+            <Link to='/'>Video</Link>
+            <Link to='/'>Diary</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <h2>Projects</h2>
+            <Link to='/'>App(1)</Link>
+            <Link to='/'>App(2)</Link>
+            <Link to='/'>Website(1)</Link>
+            <Link to='/'>Website(2)</Link>
           </div>
         </div>
       </div>
@@ -65,10 +61,10 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to='/' className="social-logo">
-            TRVL <i className="fab fa-typo3"/>
+            <i className="fas fa-paw"/>
             </Link>
           </div>
-          <small className="website-rights">TRVL ©2025</small>
+          <div className="website-rights">TED and YUMI ©2025</div>
           <div className="social-icons">
             <Link className="social-icon-link meta"
             to="/"

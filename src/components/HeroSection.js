@@ -7,22 +7,22 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       {/* <video src="/videos/video-2.mp4" autoPlay loop muted /> */}
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      <h1>SOMEONE HAD TO CARE</h1>
+      <p>To Infinity and Beyond</p>
       <div className="hero-btns">
         <Button 
           className='btns'
           buttonStyle='btn--outline'
           bottonSize='btn--large'
         >
-          GET STARTED 
+          ABOUT 
         </Button>
         <Button 
           className='btns'
           buttonStyle='btn--primary'
           bottonSize='btn--large'
         >
-          WATCH TRAILER <i className='far fa-play-cycle' />
+          PROFILE<i className='far fa-play-cycle' />
         </Button>
       </div>
     </div>
