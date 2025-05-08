@@ -59,52 +59,7 @@ function Footer() {
       </div>
       <section className="social-media">
         <div className="social-media-wrap">
-          <div className="footer-logo">
-            <Link to='/' className="social-logo">
-            <i className="fas fa-paw"/>
-            </Link>
-          </div>
           <div className="website-rights">TED and YUMI ©2025</div>
-          <div className="social-icons">
-            <Link className="social-icon-link meta"
-            to="/"
-            target="_blank"
-            aria-label='Meta'
-            >
-              <i className="fab fa-meta"></i>
-            </Link>
-            <Link className="social-icon-link instagram"
-            to="/"
-            target="_blank"
-            aria-label='Instagram'
-            >
-              <i className="fab fa-instagram"></i>
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link x'
-              to='/'
-              target='_blank'
-              aria-label='X'
-            >
-              <i class='fab fa-x' />
-            </Link>
-            <Link
-              class='social-icon-link linkedin'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
-          </div>
         </div>
       </section>
     </div>
