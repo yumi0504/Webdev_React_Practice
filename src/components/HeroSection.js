@@ -10,20 +10,22 @@ function HeroSection() {
       <h1>SOMEONE HAD TO CARE</h1>
       <p>To Infinity and Beyond</p>
       <div className="hero-btns">
-        <Button 
-          className='btns'
-          buttonStyle='btn--outline'
-          bottonSize='btn--large'
-        >
-          ABOUT 
-        </Button>
-        <Button 
-          className='btns'
-          buttonStyle='btn--primary'
-          bottonSize='btn--large'
-        >
-          PROFILE<i className='far fa-play-cycle' />
-        </Button>
+          <Button 
+            className='btns'
+            buttonStyle='btn--outline'
+            bottonSize='btn--large'
+            to='/about'
+          >
+            ABOUT 
+          </Button>
+          <Button 
+            className='btns'
+            buttonStyle='btn--primary'
+            bottonSize='btn--large'
+            to='/profile'
+          >
+            PROFILE<i className='far fa-play-cycle' />
+          </Button>
       </div>
     </div>
   )
