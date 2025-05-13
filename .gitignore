@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Webdev_React_Practice_01/ 
 =======
+=======
+>>>>>>> 734b889d2495e43af00c5bf5c5b4370128dc358a
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -24,4 +27,7 @@ Webdev_React_Practice_01/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
+>>>>>>> 734b889d2495e43af00c5bf5c5b4370128dc358a
+=======
 >>>>>>> 734b889d2495e43af00c5bf5c5b4370128dc358a
